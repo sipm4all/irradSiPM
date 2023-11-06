@@ -1,0 +1,20 @@
+/gps/particle proton
+/gps/direction 0. 0. 1.
+
+/gps/ene/type Gauss
+/gps/ene/mono 147.8 MeV
+/gps/ene/sigma 0.8 MeV
+### /gps/ene/sigma 0.9 MeV
+
+/gps/pos/type Beam
+/gps/pos/shape Circle
+#/gps/pos/sigma_r 2.5 mm
+/gps/pos/sigma_x 2.9 mm
+/gps/pos/sigma_y 2.3 mm
+/gps/pos/centre 0. 0. -150. cm
+
+/gps/ang/type beam2d
+/gps/ang/rot1 -1 0 0
+/gps/ang/rot2 0 1 0
+/gps/ang/sigma_x 3.21 mrad
+/gps/ang/sigma_y 3.64 mrad
